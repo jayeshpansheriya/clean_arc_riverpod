@@ -16,7 +16,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: '/signup',
         name: signUpRoute,
-        builder: (context, state) => const SignupScreen(),
+        builder: (context, state) => const SignUpScreen(),
       ),
     ],
   );
